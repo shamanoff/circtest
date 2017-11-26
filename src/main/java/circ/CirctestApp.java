@@ -26,6 +26,7 @@ import java.util.Collection;
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 public class CirctestApp {
 
+
     private static final Logger log = LoggerFactory.getLogger(CirctestApp.class);
 
     private final Environment env;
